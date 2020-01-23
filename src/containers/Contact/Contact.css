@@ -1,0 +1,43 @@
+.container-fluid {
+  overflow: hidden;
+}
+
+.container-fluid > .row {
+  padding: 1rem 0;
+}
+
+.map {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.topBar {
+  margin-top: -28px;
+}
+
+.bgColor {
+  background-color: #f2f2f2;
+}
+
+.contactDetails {
+  color: #d7cdcb;
+}
+
+.fullWidth {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -16px;
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .introduction {
+    width: 96.5%;
+  }
+}

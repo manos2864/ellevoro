@@ -1,0 +1,35 @@
+.LanguageSwitch {
+  position: absolute;
+  top: 0%;
+  left: 80%;
+}
+
+.MobileLanguageSwitch img {
+  display: none;
+}
+
+.LanguageSwitch img {
+  width: 45px;
+  height: auto;
+  cursor: pointer;
+}
+
+.LanguageSwitch > .LanguageSwitchActive {
+  width: 55px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Mobile Friendly Section (for smaller screens) */
+@media (max-width: 991px) {
+  .LanguageSwitch {
+    display: none;
+  }
+  .MobileLanguageSwitch img {
+    display: inline-block;
+    width: 55px;
+    margin: 0px 5px;
+    height: auto;
+    cursor: pointer;
+  }
+}

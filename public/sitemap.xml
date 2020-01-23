@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/el/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/en/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/en/menu/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/en/history/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/en/photos/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/en/contact/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/el/μενου/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/el/ιστορια/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/el/εικονες/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/el/επικοινωνια/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/el/404/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ellevoro-restaurant.firebaseapp.com/en/404/</loc>
+  <lastmod>2019-08-28T10:54:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

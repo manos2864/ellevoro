@@ -1,0 +1,23 @@
+.carouselContainer {
+  position: relative;
+  float: none;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1274px) {
+  .carouselContainer {
+    width: 90%;
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .carouselContainer {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,102 @@
+.textBorder {
+  float: left;
+  background-color: #2e2e2e;
+  word-wrap: break-word;
+  color: #d7cdcb;
+  width: 100%;
+  overflow: hidden;
+}
+
+.textBorder h1 {
+  padding: 2rem 0;
+  display: block;
+}
+
+.textBorder p {
+  text-align: justify;
+  font-size: 20px;
+  border-bottom: 1px solid #d7cdcb;
+  line-height: 30px;
+  width: 70%;
+  margin: 0 auto;
+  float: none;
+}
+
+.imageBorder {
+  display: block;
+  float: right;
+}
+
+.imageBorder img {
+  margin-left: 5rem;
+  width: 80%;
+  height: auto;
+}
+
+.baroque_texture {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../../assets/images/description/ellevoro_pic.jpg');
+}
+
+@media (max-width: 1549px) {
+  .textBorder p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1467px) {
+  .textBorder p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  .textBorder p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .baroque_texture {
+    display: none;
+    background-image: url('/');
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .textBorder {
+    float: none;
+    word-wrap: break-word;
+    height: auto;
+    width: 100%;
+  }
+
+  .textBorder h1 {
+    padding-bottom: 1rem;
+  }
+
+  .textBorder p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .imageBorder {
+    float: none;
+  }
+
+  .imageBorder img {
+    margin-left: 0rem;
+    width: 100%;
+  }
+}

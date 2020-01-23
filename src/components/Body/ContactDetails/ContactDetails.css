@@ -1,0 +1,22 @@
+.contactForm {
+  max-width: 78.5%;
+  margin: 0 auto;
+  background-color: rgba(46, 46, 46);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px #aaaaaa;
+  border-radius: 0;
+}
+
+@media (max-width: 1274px) {
+  .contactForm {
+    max-width: 88%;
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .contactForm {
+    max-width: 96.5%;
+  }
+}

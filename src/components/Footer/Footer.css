@@ -1,0 +1,67 @@
+.page-footer {
+  background-color: #2e2e2e;
+  color: #d7cdcb;
+  border-top: 1px solid #d7cdcb;
+}
+
+.page-footer h5 {
+  display: inline-block;
+  border-bottom: 1px solid #d7cdcb;
+}
+
+.page-footer a {
+  color: #d7cdcb;
+}
+
+.contactDetails {
+  text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.tooltipText {
+  visibility: hidden;
+  width: 450px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 0px;
+  left: 120px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+
+  .tooltip {
+    position: static;
+    display: block;
+    text-decoration: none;
+  }
+
+  .tooltip p {
+    display: none;
+  }
+
+  .tooltipText {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    visibility: visible;
+    background-color: #2e2e2e;
+    color: #d7cdcb;
+    position: static;
+  }
+}

@@ -1,0 +1,29 @@
+.entryCard {
+  max-width: 78.5%;
+  margin: 0 auto;
+  background-color: #2e2e2e;
+  color: #d7cdcb;
+  border-radius: 0;
+  white-space: pre-wrap;
+}
+
+.shadow {
+  box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+@media (max-width: 1274px) {
+  .entryCard {
+    max-width: 88%;
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .entryCard {
+    max-width: 96.5%;
+  }
+
+  .entryCard p {
+    text-align: justify;
+  }
+}

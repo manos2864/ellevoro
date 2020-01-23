@@ -1,0 +1,67 @@
+.parallax {
+  background-image: url('../../../assets/images/parallax/ellevoro_main_top.jpg');
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxText {
+  font-size: 60px;
+  position:absolute;
+  left: 66%;
+  top: 40%;
+  background-color: rgba(46, 46, 46, 0.5);
+  color: #d7cdcb;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+  .parallaxText {
+    font-size: 40px;
+    position:absolute;
+    left: 25%;
+    width: 70%;
+    text-align: right;
+  }
+}
+
+/* ipad landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* ipad 3 - 4 landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* ipad 1 - 2 landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+  .parallax {
+    background-attachment: scroll;
+  }
+}

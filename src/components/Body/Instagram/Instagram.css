@@ -1,0 +1,27 @@
+.Instagram {
+  float: none;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+.Instagram iframe {
+  width: 100%;
+  overflow: hidden;
+  border: 0;
+  height: 680px;
+}
+
+@media (max-width: 1274px) {
+  .Instagram {
+    width: 90.5%;
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .Instagram {
+    width: 100%;
+  }
+}

@@ -1,0 +1,111 @@
+.NavBar {
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+
+.leftNav {
+  padding-right: 4rem;
+}
+
+.rightNav {
+  padding-left: 2rem;
+}
+
+.rightNav li {
+    padding: 0 0.4rem;
+}
+
+.navLine {
+  border-bottom: 1px black solid;
+}
+
+.Brand {
+  display: block;
+}
+
+.BrandMobile {
+  display: none;
+}
+
+.BrandCompanyName {
+  display: none;
+}
+
+.MobileLanguageSwitch {
+  display: none;
+}
+
+.clickEffect {
+  cursor: pointer;
+}
+
+
+@media (max-width: 411px) {
+
+  .BrandCompanyName h2 {
+    font-size: 25px;
+  }
+
+  .BrandMobile img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 351px) {
+  .BrandCompanyName h2 {
+    display: none;
+  }
+}
+
+@media (max-width: 244px) {
+  .BrandMobile img {
+    display: none;
+  }
+}
+
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .Brand {
+    display: none;
+  }
+
+  .rightNav li {
+      padding: 0 0;
+  }
+
+  .BrandMobile {
+    display: block;
+  }
+
+  .BrandCompanyName {
+    display: block;
+    padding: 0 1rem;
+  }
+
+  .BrandMobile img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .leftNav {
+    padding-right: 0rem;
+  }
+
+  .rightNav {
+    padding-left: 0rem;
+  }
+
+  .navLine {
+    border-bottom: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .MobileLanguageSwitch {
+    display: block;
+  }
+}

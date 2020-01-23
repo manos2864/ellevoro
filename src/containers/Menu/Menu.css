@@ -1,0 +1,27 @@
+.container-fluid {
+  overflow: hidden;
+}
+
+.container-fluid > .row {
+  padding: 1rem 0;
+}
+
+.topBar {
+  padding: 0px;
+  margin-top: -28px;
+}
+
+.bgColor {
+  background-color: #f2f2f2;
+}
+
+.fullWidth {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -16px;
+}

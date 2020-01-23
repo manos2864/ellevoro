@@ -1,0 +1,99 @@
+.content {
+  display: block;
+  text-align: center;
+  background-color: #2e2e2e;
+  color: #d7cdcb;
+  padding: 50px 0;
+  height: 585px;
+}
+
+.content p {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d7cdcb;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.container-fluid > .row {
+  padding: 1rem 0;
+}
+
+.topBar {
+  padding: 0px;
+  margin-top: -28px;
+}
+
+.fullWidth {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -16px;
+}
+
+.notfoundContainer .notfound {
+  margin: 0 auto;
+  float: none;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+
+.notfound {
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.notfound .notfound-404 {
+  height: 158px;
+  line-height: 153px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Caudex', serif;
+  color: #222;
+  font-size: 220px;
+  letter-spacing: 10px;
+  margin: 0px;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+}
+
+.notfound .notfound-404 h1>span {
+  text-shadow: 2px 2px 0px #ffab00, -2px -2px 0px #ffab00, 0px 0px 8px #ff8700;
+}
+
+@media (max-width: 1274px) {
+  .introduction {
+    width: 88%;
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+
+  .notfoundContainer .notfound {
+    padding-bottom: 30px;
+  }
+
+  .introduction {
+    width: 96.5%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 122px;
+    line-height: 122px;
+  }
+
+  .notfound .notfound-404 h1 {
+      font-size: 122px;
+  }
+}

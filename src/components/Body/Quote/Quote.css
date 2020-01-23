@@ -1,0 +1,150 @@
+.QuoteImage {
+  margin: 0 auto;
+  text-align: center;
+  width: 78.5%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/gif/optmized.gif');
+}
+
+.QuoteContainer {
+  background-color: rgba(46, 46, 46, 0.8);
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 80px 0;
+  color: #d7cdcb;
+  box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+.QuoteContainer h1 {
+  border-top: 1px solid #d7cdcb;
+  border-bottom: 1px solid #d7cdcb;
+  display: inline-block;
+}
+
+#fade-quote blockquote {
+  text-align: center;
+  border: none;
+  padding: 15px 0;
+  font-size: 20px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  width: 50%;
+}
+
+.profile-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fade-quote .profile-circle {
+    background-color: rgba(0,0,0,.2);
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+#fade-quote .profile-circle:nth-child(1){
+  background-size: contain;
+  box-shadow: 2px 5px 8px black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/description/sofia-small.jpg');
+}
+
+#fade-quote .profile-circle:nth-child(2){
+  background-size: contain;
+  box-shadow: 2px 5px 8px black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/description/thekla.jpg');
+}
+
+#fade-quote .profile-circle:nth-child(3){
+  background-size: contain;
+  box-shadow: 2px 5px 8px black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/description/elena.jpg');
+}
+
+@media (max-width: 1467px) {
+  #fade-quote blockquote {
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1274px) {
+  .QuoteImage {
+    width: 88%;
+  }
+
+  .QuoteContainer {
+    padding: 50px 0;
+  }
+
+  #fade-quote blockquote {
+    text-align: center;
+  }
+  #fade-quote .profile-circle {
+      width: 120px;
+      height: 120px;
+  }
+}
+
+/* Mobile Friendly Section */
+@media (max-width: 1028px) {
+  .QuoteImage {
+    height: auto;
+    background-image: none;
+    width: 96.7%;
+  }
+
+  .QuoteContainer {
+    padding: 40px 0;
+    background-color: rgba(46, 46, 46, 1);
+  }
+
+  #fade-quote blockquote {
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+  }
+}
+
+/* ipad landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .QuoteImage {
+    background-attachment: scroll;
+  }
+}
+
+/* ipad 3 - 4 landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .QuoteImage {
+    background-attachment: scroll;
+  }
+}
+
+/* ipad 1 - 2 landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+  .QuoteImage {
+    background-attachment: scroll;
+  }
+}
